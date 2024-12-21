@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+    width: 100%;
+    height: 10%;
+    padding: 25px;
+    background-color: #D7D7D7;
+    padding-right: 200px;
+}
+.nav img{
+    height: 40px;
+    width: 40px;
+
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate {
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+
+.buttons{
+    display: flex;
+    gap: 25px;
+}
+.buttons .projecten{
+    padding: 13px 18px; 
+    border-radius: 14px;
+    font-size: 17px;
+    border: 1px solid black;
+    background-color: #D7D7D7;
+}
+.buttons .over{
+    padding: 13px 18px;
+    border-radius: 14px;
+    font-size: 17px;
+    border: 1px solid black;
+    background-color: #D7D7D7;
+}
+.buttons .project{
+    padding: 13px 18px;
+    border-radius: 14px;
+    font-size: 17px;
+    border: 1px solid black;
+    background-color: #D7D7D7;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.content{
+    padding: 25px;
+    display: flex;
+    gap: 240px;
+    background-color: #D7D7D7;
+}
+
+.content1 img{
+    height: 70px;
+    width: 70px;
+}
+.content1 h2{
+    font-size: 100px;
+    font-weight:500;
+}
+.content2{
+    margin-top: 180px;
+}
+.content2 p{
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+}
+button{
+    margin-top: 25px;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.content2 button::after{
+    content: "";
+    height: 1.5px;
+    width: 0%;
+    display: block;
+    background-color: black;
+    transition: all ease 0.2s;
+}
+
+.content2 button:hover::after{
+    width: 90%;
+    
+}
+.content2 button:hover{
+    border-radius: 28px;
+}
+.images {
+    height: 90%;
+    width: 100%;
+    background-color: #D7D7D7;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.images .img1{
+    height: 600px;
+    width: 400px;
+    object-fit: cover;
+    border: none;
+    border-radius: 150px;
+}
+.images .img2{
+    height: 600px;
+    width: 400px;
+    object-fit: cover;
+    border: none;
+    border-radius: 150px;
+}
+.images .img3{
+    height: 600px;
+    width: 400px;
+    object-fit: cover;
+    border: none;
+    border-radius: 150px;
+}
+.images .img4{
+    height: 600px;
+    width: 400px;
+    object-fit: cover;
+    border: none;
+    border-radius: 150px;
+}
+.images .img5{
+    height: 600px;
+    width: 400px;
+    object-fit: cover;
+    border: none;
+    border-radius: 150px;
+}
+.discription {
+    padding-left: 60px;
+    background-color: #D7D7D7;
+}
+.discription p{
+    font-size: 26px;
+    font-weight: 300;
+}
+.discription button::after{
+    content: "";
+    height: 1.3px;
+    width: 0%;
+    background-color: black;
+    display: block;
+    transition: all ease 0.5s;
+}
+.discription button:hover::after{
+    width: 90%;
+}
+.discription button:hover{
+    border-radius: 20px;
+}
+.cases{
+    height: 58%;
+    width: 100%;
+    background-color: #D7D7D7;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.cases p{
+    margin-top: 30px;
+    font-size: 30px;
+}
+.cases h1{
+    font-size: 150px;
+    text-align: center;
+}
+.cases .button1{
+    background-color: rgba(249, 204, 5, 0.991);
+    color: black;
+    padding: 15px 20px;
+    position: absolute;
+    right: 25%;
+    bottom: 22%;
+    rotate: -18deg;
+    border-radius: 50px;
+}
+.cases .button2{
+    position: absolute;
+    bottom: 20px;
+    right: 13%;
+}
+.cases .button2::after{
+    content: "";
+    background-color: black;
+    height: 1.4px;
+    width: 0%;
+    display: block;
+    transition: all ease 0.5s;
+}
+.cases .button2:hover::after{
+    width: 90%;
+}
+.cases .button2:hover{
+    border-radius: 28px;
+}
+.image{
+    height: 95%;
+    width: 100%;
+    padding: 60px;
+    background-color: #D7D7D7;
+}
+.image img{
+    height: 97%;
+    width: 87%;
+    border: none;
+    border-radius: 30px;
+}
+.image img:hover{
+    transition: all ease 0.5s;
+    border-radius: 150px;
+}

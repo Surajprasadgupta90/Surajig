@@ -1,0 +1,69 @@
+brendon eich made mocha and then made javascript.
+operators: 
+arithmetic opertors: 
+comparsion opertors:
+In js == is === because ("2" == 2) it convert string in number by default.
+== not strict.
+=== strict.
+arr[-23] = 12;
+let arr= new Array(1000); this is blanck;
+to fill it use [arr.fill(any value)] with a same value
+
+push pop shift unshift; learn it. -- basically these all creating the new blanck array.
+push() = add one or more element at the end of an array;
+Returns: the new length of the array; 
+pop() = remove only one element at the end of an array;
+Returns: the removed element;
+shift() = remove the first element of the array;
+Returns: the removed element;
+unshift() = add one or more elements at the beginning of the array. 
+Returns: the new length of the array;
+arr.forEach(function(val,index){body here})
+
+let arr = [1,2,3,4,5,6];
+let ans = arr.map(function(val){
+    return val+4;
+})
+
+arr.filter - which help to use the conditionals 
+let arr = [1,2,3,4,5,6];
+let ans = arr.filter((val){
+    return val>4;
+})
+
+arr.splice(index,value); - this remove the number  on the array;
+let arr = [1,2,3,4,5,6];
+arr.splice(2,4);
+
+arr.forEach(function (value){
+    body;
+})
+
+reduce = to calculate and gives the one value
+let arr = [1,2,34,5,55]
+let ans = arr.reduce(dunction(acc,val){
+    return acc+val
+}, 0);
+
+include = this give easily true or false value by checking in array;
+let arr = [2, 34,5,45,8,5];
+arr.include(34);
+
+objects:
+in object there are two things property and value; - poperty write with colon and value end with comma;
+object creation and access;
+let arr = {
+    name : suraj,
+    age: 19,
+    number: 9038
+}
+ofject Methods;
+object ke ander function ko method kahte hai;
+let arr = {
+    name : suraj,
+    age: 19,
+    number: function()
+}
+defining methods in objects 
+this keyword
+Destructuring
